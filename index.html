@@ -6,7 +6,7 @@
   <title>UF Hope Party - Coming Soon</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Modak&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <style>
     html, body {
       height: 100%;
@@ -15,26 +15,73 @@
       background-color: #4f009F;
       color: #fff6f6;
     }
+    
+    p {
+  margin: 0;
+}
+
 
     .centered {
-      display: flex;
-      justify-content: center;     /* Horizontal centering */
-      align-items: center;         /* Vertical centering */
-      height: 100vh;               /* Full viewport height */
-      text-align: center;          /* Center text inside the container */
-    }
-    
+  display: flex;
+  flex-direction: column;   /* stack vertically */
+  justify-content: center;  /* vertical centering */
+  align-items: center;      /* horizontal centering */
+  height: 100vh;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #e0ffff
+}
+
+
+
     .modak-regular {
       font-family: "Modak", system-ui;
       font-weight: 400;
       font-style: normal;
       font-size: 35px;
     }
+
+    .space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
   </style>
 </head>
 <body>
-  <div class="centered modak-regular">
-    <p>Coming soon.</p>
+  <div class="centered">
+    <div class="modak-regular">
+      <p>HOPE FOR UF SG</p>
+    </div>
+    <div class="space-mono-regular">
+      <p>Coming soon.</p>
+      <a href="https://www.instagram.com/uf.hopeparty/">Follow us on IG</a>
+    </div>
   </div>
 </body>
 </html>   
